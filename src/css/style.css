@@ -10,20 +10,25 @@
     --font-sm: 16px;
     --font-md: 20px;
     --font-xl: 40px;
+    --font-xxl: 70px;
 }
 
 body {
     margin: 0 auto;
     max-width: 1200px;
     font-family: "Inter", sans-serif;
+    background-image: url(https://api.idda.az/resized/resize3810/center/pages/83/banner-website-1-1.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
 }
 
 header .navbar {
-    /* display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
-    background-color: pink;
-    border-radius: 50px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,6 +71,7 @@ header .navbar .nav-items li a {
     text-decoration: none;
     color: black;
     font-size: var(--font-xs);
+    font-weight: 600;
 }
 
 .search-icon {
@@ -74,4 +80,11 @@ header .navbar .nav-items li a {
   padding: 8px;
   background: #f2f2f2;
   border-radius: 50%;
+}
+
+main #heading {
+    font-size: var(--font-xxl);
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 130px;
 }
