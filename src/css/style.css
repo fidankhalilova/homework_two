@@ -48,7 +48,6 @@ header .navbar {
 
 .navbar .nav-heading img {
     width: 100px;
-    height: 100%;
 }
 
 .height-line {
@@ -105,7 +104,6 @@ main .menu-box {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    z-index: 2;
 }
 
 main .menu-box .description {
@@ -155,4 +153,10 @@ main .menu-box button {
 
 .btn-4 {
     background: linear-gradient(90deg, #001c3f, #3484ff);
+}
+
+main .activity h2 {
+    font-size: var(--font-xl);
+    position: absolute;
+    bottom: -150px;
 }
