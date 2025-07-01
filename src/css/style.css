@@ -18,9 +18,9 @@ body {
     max-width: 1200px;
     font-family: "Inter", sans-serif;
     background-image: url(https://api.idda.az/resized/resize3810/center/pages/83/banner-website-1-1.png);
-    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -97,7 +97,6 @@ main .menu-box {
     gap: 40px;
     max-width: 850px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    align-items: flex-start;
     position: absolute;
     left: 0;
     right: 0;
@@ -155,8 +154,30 @@ main .menu-box button {
     background: linear-gradient(90deg, #001c3f, #3484ff);
 }
 
-main .activity h2 {
+/* main .activity h2 {
     font-size: var(--font-xl);
     position: absolute;
     bottom: -150px;
+    font-weight: 400;
 }
+
+main .activity .blog {
+    position: absolute;
+    bottom: -500px;
+    width: 500px;
+    flex: 1;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 260px;
+    position: relative;
+}
+
+main .activity {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+} */
