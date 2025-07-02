@@ -169,6 +169,7 @@ main .activity h2 {
     font-weight: 400;
     display: block;
     margin-bottom: 20px;
+    margin-left: 100px;
 }
 
 main .activity .activity-blogs {
@@ -210,3 +211,37 @@ main .activity .activity-blogs .blog .card-content .desc {
     opacity: 0.8;
 } */
 
+.stats {
+    position: relative;
+    top: 140px;
+    width: 1250px;
+    margin-left: -160px;
+    /* overflow: hidden; */
+}
+
+.stat h2 {
+    font-size: var(--font-xl);
+    font-weight: 400;
+    width: 60%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.stat img {
+    max-width: 121.27%;
+    height: auto;
+}
+
+.stat .stat-texts {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+
+.stat .stat-texts .stat-text {
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
