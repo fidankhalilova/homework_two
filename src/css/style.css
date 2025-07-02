@@ -17,14 +17,15 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     font-family: "Inter", sans-serif;
-    background-image: url(https://api.idda.az/resized/resize3810/center/pages/83/banner-website-1-1.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0 auto;
 }
 
-.container {
-    margin: 0 auto;
+body .background-img {
+    position: absolute;
+    inset: 0;
+    color: transparent;
+    width: 100%;
+    height: 80%;
 }
 
 header .navbar {
@@ -37,6 +38,7 @@ header .navbar {
     max-width: 90%;
     border-radius: 50px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
 }
 
 .navbar .nav-heading {
@@ -87,6 +89,7 @@ main #heading h1{
     margin: 130px auto;
     font-weight: 500;
     width: 90%;
+    position: relative;
 }
 
 main .menu-box {
@@ -97,12 +100,11 @@ main .menu-box {
     gap: 40px;
     max-width: 850px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
 }
 
 main .menu-box .description {
@@ -154,30 +156,57 @@ main .menu-box button {
     background: linear-gradient(90deg, #001c3f, #3484ff);
 }
 
-/* main .activity h2 {
-    font-size: var(--font-xl);
-    position: absolute;
-    bottom: -150px;
-    font-weight: 400;
+main .activity {
+    position: relative;
+    top: 40px;
+    margin-top: 40px;
+    width: 1400px;
+    margin-left: -80px;
 }
 
-main .activity .blog {
-    position: absolute;
-    bottom: -500px;
-    width: 500px;
-    flex: 1;
+main .activity h2 {
+    font-size: var(--font-xl);
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main .activity .activity-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .activity .activity-blogs .blog img {
     border-radius: 20px;
-    padding: 25px;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 260px;
+    width: 450px;
+    min-height: 220px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
-main .activity {
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
+/* main .activity .activity-blogs .blog .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    color: white;
+}
+
+main .activity .activity-blogs .blog .card-content .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main .activity .activity-blogs .blog .card-content .desc {
+    font-size: 14px;
+    opacity: 0.8;
 } */
+
