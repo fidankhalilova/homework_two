@@ -61,7 +61,7 @@ header .navbar {
 header .navbar .nav-items ul {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 header .navbar .nav-items li {
@@ -71,8 +71,15 @@ header .navbar .nav-items li {
 header .navbar .nav-items li a {
     text-decoration: none;
     color: black;
-    font-size: var(--font-xs);
+    font-size: 10px;
     font-weight: 600;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+header .navbar .nav-items li a:hover {
+    color: white;
+    background-color: #bb32fc;
 }
 
 .search-icon {
@@ -88,7 +95,7 @@ main #heading h1 {
     text-align: center;
     color: #f2f2f2;
     margin: 130px auto;
-    font-weight: 500;
+    font-weight: 400;
     width: 90%;
     position: relative;
 }
@@ -229,7 +236,7 @@ main .activity .activity-blogs .blog img {
 }
 
 main .four-boxes {
-    margin-top: 160px;
+    margin-top: 180px;
 }
 
 .grid-container {
@@ -366,7 +373,7 @@ main .four-boxes h2 {
     text-align: center;
     font-size: var(--font-xl);
     margin-bottom: 40px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .faq-button {
