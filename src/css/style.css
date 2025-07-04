@@ -370,7 +370,72 @@ main .four-boxes h2 {
 .divider img {
     margin-top: 100px;
     max-width: 126.25%;
-    height: auto;  
+    margin-left: -155.25px;
     position: relative;
-    margin-left: -160px;
+}
+
+.faq-wrapper {
+    background-color: #f2f4fb; 
+    padding: 60px 20px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: var(--font-xl);
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.faq-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: default;
+    text-align: left;
+}
+
+.faq-button:hover {
+    background-color: #f0f2fa;
+}
+
+.faq-button::after {
+    content: "▾";
+    font-size: 18px;
+}
+
+.partners {
+    margin: 40px 0;
+}
+
+.partners h2 {
+    font-size: var(--font-xl);
+    text-align: center;
+    font-weight: 500;
+}
+
+.partners .part-imgs{
+    margin-top: 60px;
+    width: auto; 
+    height: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: -134px;
+}
+
+.partners img {
+    width: 150px;
+    margin-right: 160px;
 }
