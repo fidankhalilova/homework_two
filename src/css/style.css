@@ -360,7 +360,6 @@ main .four-boxes h2 {
 }
 
 .faq-wrapper {
-    background-color: #f2f4fb; 
     padding: 60px 20px;
 }
 
@@ -384,7 +383,7 @@ main .four-boxes h2 {
     font-size: 18px;
     padding: 25px 30px;
     margin-bottom: 20px;
-    background-color: #ffffff;
+    background-color: #f0f4fc;
     border: none;
     border-radius: 30px;
     cursor: default;
@@ -392,7 +391,7 @@ main .four-boxes h2 {
 }
 
 .faq-button:hover {
-    background-color: #f0f2fa;
+    background-color: #e1e3ee;
 }
 
 .faq-button::after {
